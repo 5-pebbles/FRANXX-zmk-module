@@ -1,0 +1,12 @@
+file_format: "1"
+id: franxx
+name: franxx
+type: shield
+url: https://github.com/5-pebbles/franxx
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - franxx_left
+  - franxx_right

@@ -1,0 +1,6 @@
+// FRANXX Right has all GPIO offset by 11, e.g. input on column (GPIO pin index) #0 -> #11.
+#include "franxx.dtsi"
+
+&default_transform {
+    col-offset = <11>;
+};

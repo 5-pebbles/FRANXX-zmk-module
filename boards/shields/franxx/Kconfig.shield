@@ -1,0 +1,8 @@
+# This creates two boolean config options (one for each half of the split keyboard).
+# The def_bool with shields_list_contains automatically sets these to true when the corresponding shield name is specified in the build.
+
+config SHIELD_FRANXX_LEFT
+    def_bool $(shields_list_contains,franxx_left)
+
+config SHIELD_FRANXX_RIGHT
+    def_bool $(shields_list_contains,franxx_right)
