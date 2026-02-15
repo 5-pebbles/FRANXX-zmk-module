@@ -11,6 +11,9 @@ endif
 
 if SHIELD_FRANXX_LEFT || SHIELD_FRANXX_RIGHT
 
+config ZMK_BLE_EXPERIMENTAL_CONN
+    default y
+
 config ZMK_SETTINGS_RESET_ON_START
     default y
 
